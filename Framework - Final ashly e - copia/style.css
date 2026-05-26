@@ -1,0 +1,151 @@
+/* ------------------------------------- */
+/* Reinicio de los estilos para borrar modificaciones del navegador */
+/* ------------------------------------- */
+
+
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* ------------------------------------- */
+/* Estilos para el HOME */
+/* ------------------------------------- */
+body{
+    background-color: rgb(216, 167, 138);
+}
+
+
+h1{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80pt;
+    text-align: center;
+    color: rgb(154, 105, 76);
+    
+}
+
+h2{ 
+    font-size: 25pt;
+    text-align: center;
+    color: rgb(145, 102, 76);
+  font-family: "Lancelot", serif;
+  font-weight: 400;
+  font-style: normal;
+    margin: 30px auto;
+   width: 900px;
+    line-height: 1.6;}
+
+    
+
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    justify-content:center;
+
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+.segundo{  width: 500px;
+    border-radius: 30px;
+
+}
+
+.aire2{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor{
+     width: 500px;
+    border-radius: 5px;}
+
+.mundo{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.banner{
+    width: 100%;
+    height: 30px;
+     background-color:rgb(207, 153, 120);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+     font-family: "Lancelot", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 16pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: rgb(229, 213, 213);
+    background-color:rgb(159, 114, 87);
+    margin: 5px;
+    border-radius: 50px;
+}
+
+/* ------------------------------------- */
+/* Estilos para las secciones */
+/* ------------------------------------- */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+/* --------------cabeza -------------------- */
+header{
+    background-color: rgb(255, 214, 190);
+    padding: 8% 5%;
+}
+
+nav{
+    background-color:rgb(194, 142, 110);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* -----------------resto-------------------- */
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 227, 205);
+    padding: 5%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    padding: 1%;
+    text-align: center;
+}
+
+
+/* -----------------numero 1-------------------- */
+
+/* -----------------numero 1 final-------------------- */
